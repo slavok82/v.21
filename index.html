@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">    
+    <script src="./scripts/script.js" defer></script>    
+</head>
+<body>   
+    <main>        
+        <section class="list" id="cards">            
+        </section>
+        <div>
+            <button id="prev">
+                prev
+            </button>
+            <button id="next">
+                next
+            </button>
+            <button id="create">
+                New User
+            </button>
+        </div>  
+        <script type="text/template" id="user">                
+        <div class="card">
+            <h2>{{name}}</h2>
+            <p>{{email}}</p>
+            <img src="{{avatar}}" alt="{{name}}">
+        </div>   
+        </script>     
+    </main> 
+</body>
+</html>

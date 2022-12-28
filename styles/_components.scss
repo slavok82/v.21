@@ -1,0 +1,25 @@
+@import './variables';
+
+.card {
+    width: 200px;
+    padding: 20px 20px;
+    text-align: center;
+    display: block;
+    background: $bg;
+    border: 2px solid $cardBorder;
+    border-radius: 10px;
+}
+
+.list {    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+
+button {
+    margin-left: 20px;
+    background: $buttonBR;
+    border-radius: 10px;
+    font-size: 22px;       
+}
